@@ -9,7 +9,7 @@ export default function Home() {
         <Link href="">videography</Link>
         <Link href="">designs</Link>
         <Link href="">contact</Link> */}
-        <p>under new review...</p>
+        <p className="m-4">under new review...</p>
       </div>
     </main>
   );
