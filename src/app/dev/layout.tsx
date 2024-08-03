@@ -4,7 +4,7 @@ export default function Layout({
   children: React.ReactNode
 }) {
   return (
-    <main className="h-screen w-full overflow-auto">
+    <main className="h-full">
       {children}
     </main>
   )

@@ -10,7 +10,7 @@
   }
 
   .link {
-    @apply cursor-pointer font-bold;
+    @apply cursor-pointer font-bold underline text-blue-600;
   }
 
   a:hover, .link:hover {
