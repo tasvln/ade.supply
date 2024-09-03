@@ -12,7 +12,7 @@ const Dev = () => {
       <p className="uppercase mt-6">my top projects</p>
       <ul className="capitalize list-disc">
         <li><a className="link" href="https://www.projectstadium.com">project stadium (esport tournament platform)</a></li>
-        <li><a className="link" href="https://www.dinyl.ade.supply">dinyl (vinyl editor)</a></li>
+        <li><a className="link" href="https://www.disyl.ade.supply">dinyl (vinyl editor)</a></li>
         {/* <li><a className="link" href="https://www.grit.ade.supply">grit ()</a></li> */}
         <li><a className="link" href="https://www.placeonatee.ade.supply">place-on-a-tee (tshirt editor)</a></li>
         <li><a className="link" href="https://github.com/tasvln/assembly-station-app">assembly station (C++)</a></li>
