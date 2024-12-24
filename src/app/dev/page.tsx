@@ -34,7 +34,7 @@ const Dev = () => {
         <li>SQL, NoSQL, MongoDB, Postgresql</li>
         <li>azure, AWS</li>
         <li>Framer Motion, WebGL, ThreeJS</li>
-        <li>Shopify, LiquidJS, </li>
+        <li>Shopify Storefront API, LiquidJS, Hydrogen</li>
       </ul>
       <p className="uppercase mt-6">tools</p>
       <ul className="capitalize list-disc">
