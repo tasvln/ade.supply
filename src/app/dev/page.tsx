@@ -2,7 +2,7 @@ const Dev = () => {
   return (
     <div className="flex flex-col mx-auto gap-2 max-w-3xl text-lg my-16 p-4">
       <p>Hi,</p>
-      <p>I&apos;m <b className="text-xl">Temitope Adebayo</b>, a Software Developer</p>
+      <p>I&apos;m <b className="text-xl">Temitope Adebayo</b>, a Software Engineer</p>
       <p>
         I have the professional experience of being a Frontend and Fullstack Engineer. I&apos;m currently interested in core engineering (integrating software with hardware) but open to opportunities/taking a challenge.
       </p>
