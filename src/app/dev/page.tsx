@@ -4,7 +4,11 @@ import Link from "next/link";
 
 const Dev = () => {
   return (
-    <div className="flex flex-col mx-auto gap-6 max-w-3xl text-lg my-16 p-4">
+    <div className="flex flex-col mx-auto gap-6 max-w-3xl text-lg my-16 p-4 relative">
+      <div className="fixed top-0 right-0 p-4 flex flex-col text-right">
+        <Link href="https://github.com/tasvln" className="uppercase text-sm font-bold">GitHub</Link>
+        <Link href="https://nrma.company" className="uppercase text-sm font-bold">The Nrma Company</Link>
+      </div>
       <div className="flex flex-col gap-2 text-sm">
         <p>Hi,</p>
         <p>I&apos;m <b className="text-xl">Temitope Adebayo</b>, a <b>Curious Programmer</b>.</p>
