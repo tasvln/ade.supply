@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Truculenta } from "next/font/google";
+import { Kumbh_Sans } from "next/font/google";
 import "./globals.css";
 
-const font = Truculenta({ subsets: ["latin"] });
+const font = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Temitope Adebayo",
@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`scroll-smooth ${font.className}`}>{children}</body>
+      <body
+        className={`${font.className} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

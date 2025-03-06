@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Model Renderer",
+    "stack": "C++, OpenGL, Shader Programming, Matrix Transformations, Rendering Pipeline, GLSL",
+    "link": "https://github.com/tasvln/rendel",
+    "prev": "/images/projects/rendel.png",
+    "desc": "Developed a real-time model renderer using OpenGL and C++, supporting transformations, lighting, texture mapping, and Keyboard::Mouse gestures. "
+  },
+  {
+    "name": "Simple Logger",
+    "stack": "C++, SDL, ImGUI, OpenGL, Logging Framework Design, Performance Optimization",
+    "link": "https://github.com/tasvln/simlogger",
+    "prev": "/images/projects/simplelogger.png",
+    "desc": "Created a lightweight logging utility file using C++ and ImGUI to track application events, errors, and performance metrics — can be used with SDL and GLFW."
+  },
+  {
+    "name": "Stadium Player Card",
+    "stack": "Next.js, Typescript, SVG Generation, Zustand, API Integration",
+    "link": "https://mint.projectstadium.com/",
+    "prev": "/images/projects/card.png",
+    "desc": "Developed a dynamic player or team card system that generates unique SVG-based cards for players and teams competing in a tournament, linking all their stats to the card to set their worth for team recruitment, ownerships or. — think of it as a pokemon card but for gamers."
+  },
+  {
+    "name": "Stadium",
+    "stack": "Next.js, Typescript, Zustand, GraphQL, Zod",
+    "link": "https://projectstadium.com/",
+    "prev": "/images/projects/stadium.png",
+    "desc": "Collaborated to build an esport tournament hosting platform where players or teams can create their own self-organized tournaments for the games they love playing together."
+  },
+  {
+    "name": "The Nrma Company",
+    "stack": "Next.js, Typescript, TailwindCSS, GSAP, SEO, Content Management",
+    "link": "https://nrma.company/",
+    "prev": "/images/projects/nrma.png",
+    "desc": "Designed and developed the website for The Nrma Company, a creative venture agency, to showcase its services in branding, web development, and digital transformation."
+  },
+  {
+    "name": "Binary Data Processor",
+    "stack": "C++, Multithreading, Parallel Computing, Performance Optimization, Data Structures, Algorithm Design, Debugging",
+    "link": "https://github.com/tasvln/process-data-thread",
+    "prev": "",
+    "desc": "A program that processes binary data using multithreading and displays the time taken to process it efficiently."
+  },
+  {
+    "name": "Braille Translator",
+    "stack": "Python, Text Processing, Unicode Handling, Data Parsing, Algorithm Optimization, Unit Testing",
+    "link": "https://github.com/tasvln/eng-intern-challenge/tree/challenge-submission-dev/python",
+    "prev": "",
+    "desc": "A text conversion tool that translates English text into Braille, handling capitalization and numeric indicators accurately."
+  },
+  {
+    "name": "Disyl",
+    "stack": "React, Framer Motion, HTML5 Canvas API, Image Processing",
+    "link": "https://disyl.ade.supply/",
+    "prev": "/images/projects/disyl.png",
+    "desc": "A platform for customizing vinyl records by importing images and previewing the final design before export."
+  }
+]

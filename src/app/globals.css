@@ -1,19 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* tailwind make every a link hoover and scale */
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
 
-@layer components {
-  a, .link {
-    @apply transform transition duration-200 ease-in-out;
-  }
+body {
+  color: #171717;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .link {
-    @apply cursor-pointer font-bold underline text-blue-600;
-  }
-
-  a:hover, .link:hover {
-    @apply scale-105;
-  }
+.link:hover, a:hover {
+  text-decoration: underline;
 }

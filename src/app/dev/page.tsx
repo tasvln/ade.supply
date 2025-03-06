@@ -1,50 +1,54 @@
+import Image from "next/image";
+import projects from  "@/data/projects.json"
+import Link from "next/link";
+
 const Dev = () => {
   return (
-    <div className="flex flex-col mx-auto gap-2 max-w-3xl text-lg my-16 p-4">
-      <p>Hi,</p>
-      <p>I&apos;m <b className="text-xl">Temitope Adebayo</b>, a Software Engineer</p>
-      <p>
-        I have the professional experience of being a Frontend and Fullstack Engineer. I&apos;m currently interested in core engineering (integrating software with hardware) but open to opportunities/taking a challenge.
-      </p>
-      <p>
-        My personal projects can be found on my <i className="text-xl"><b><a className="link" href="https://github.com/tasvln">GitHub</a></b></i>
-      </p>
-      <p className="uppercase mt-6">my top projects</p>
-      <ul className="capitalize list-disc">
-        <li><a className="link" href="https://www.nrma.company">the nrma company</a></li>
-        <li><a className="link" href="https://www.projectstadium.com">project stadium (esport tournament platform)</a></li>
-        <li><a className="link" href="https://www.disyl.ade.supply">disyl (vinyl editor)</a></li>
-        {/* <li><a className="link" href="https://www.grit.ade.supply">grit ()</a></li> */}
-        <li><a className="link" href="https://www.placeonatee.ade.supply">place-on-a-tee (tshirt editor)</a></li>
-        <li><a className="link" href="https://github.com/tasvln/assembly-station-app">assembly station (C++)</a></li>
-        <li><a className="link" href="https://www.madeavln.com">madeavln (Headless shopify)</a></li>
-        <li><a className="link" href="https://www.ade.supply">ade.supply (portfolio)</a></li>
-      </ul>
-      <p className="uppercase mt-6">oop (Object-Oriented Programmingg)</p>
-      <ul className="capitalize list-disc">
-        <li>C++, Python, Go</li>
-      </ul>
-      <p className="uppercase mt-6">my front/back-end stack</p>
-      <ul className="capitalize list-disc">
-        <li>HTML, CSS</li>
-        <li>SCSS, Tailwind</li>
-        <li>Typescript, Javascript</li>
-        <li>React, React Native, NextJS, Vite</li>
-        <li>NodeJS, Express, Fastify, NestJS, tRPC, GraphQL</li>
-        <li>SQL, NoSQL, MongoDB, Postgresql</li>
-        <li>azure, AWS</li>
-        <li>Framer Motion, WebGL, ThreeJS</li>
-        <li>Shopify Storefront API, LiquidJS, Hydrogen</li>
-      </ul>
-      <p className="uppercase mt-6">tools</p>
-      <ul className="capitalize list-disc">
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Figma</li>
-        <li>JIRA, Notion</li>
-      </ul>
-      <p className="capitalize mt-6">i&apos;m open to learning new technologies/stacks :)</p>
-      <p className="uppercase mt-6">can be reached at <b><a className="link" href="mailto:tasvln@outlook.com">tasvln@outlook.com</a></b></p>
+    <div className="flex flex-col mx-auto gap-6 max-w-3xl text-lg my-16 p-4">
+      <div className="flex flex-col gap-2 text-sm">
+        <p>Hi,</p>
+        <p>I&apos;m <b className="text-xl">Temitope Adebayo</b>, a <b>Curious Programmer</b>.</p>
+        <p>
+          To hone my skills in game development & integration engineering, over the years i’ve learnt and understood, <b>Object Oriented Programming</b>, <b>Graphics Rendering</b>, <b>Audio Processing::Production (FL Studio)</b>,  
+          <b>3D Modeling (Blender)</b>, <b>GPU::CPU Core Processes</b>, <b>Game Physics</b>, <b>User Experience::Graphic Design (Photoshop, Illustrator, Figma)</b>, and other concepts... 
+        </p>
+        <p>
+          With my proficiency in programming languages such as, <b>Python</b>, <b>C++</b>, <b>Go</b> and <b>Bash Scripting</b>, I believe I would be a very valuable asset to any <b>Development Team</b>.
+        </p>
+      </div>
+      <div>
+        <p className="font-bold uppercase text-2xl mb-2">Projects</p>
+        <div className="flex flex-col gap-4">
+          {projects.map((p, index) => (
+            <div className="flex flex-col gap-2" key={index}>
+              {/* <div className="bg-gray-500 w-full h-[300px]" /> */}
+              {p.prev && (
+                <Image 
+                  src={p.prev} 
+                  alt={p.name} 
+                  style={{objectFit: "contain"}}
+                  priority={true}
+                  quality={80}
+                  width={600}
+                  height={1000}
+                />
+              )}
+              <div className="">
+                <p className="font-bold">{p.name} <sup>[{p.stack}] <Link className="text-blue-500 italic" href={p.link}>preview</Link></sup></p>
+                <p className="text-sm">{p.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div>
+        <p className="font-bold uppercase text-2xl mb-2">Skills</p>
+        <p className="capitalize font-bold text-sm">C++, Python, Go, SDL, GLFW, OpenGL, WebGL, C# (Unity), scripting, game design, game mechanics::physics, rendering pipelines, Javascript, Typescript, React, NextJS, NodeJS, NestJS, and Fastify</p>
+      </div>
+      <div>
+        <p className="font-bold uppercase text-2xl mb-2">Contact</p>
+        <a href="mailto:tsad3bayo@outlook.com" className="lowercase w-fit link text-sm">like what you see? email me a propsition :)</a>
+      </div>
     </div>
   );
 }
