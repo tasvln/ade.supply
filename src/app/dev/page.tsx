@@ -47,7 +47,7 @@ const Dev = () => {
       </div>
       <div>
         <p className="font-bold uppercase text-2xl mb-2">Contact</p>
-        <a href="mailto:tsad3bayo@outlook.com" className="lowercase w-fit link text-sm">like what you see? email me a propsition :)</a>
+        <a href="mailto:tsad3bayo@outlook.com" className="lowercase w-fit link text-sm">like what you see? email me a proposition :)</a>
       </div>
     </div>
   );
