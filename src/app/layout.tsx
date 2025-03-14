@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Kumbh_Sans } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 
 const font = Kumbh_Sans({ subsets: ["latin"] });
@@ -21,6 +22,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <GoogleAnalytics gaId="G-BCH25XD41G" />
     </html>
   );
 }
