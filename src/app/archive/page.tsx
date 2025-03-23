@@ -12,10 +12,11 @@ const Archive = () => {
       <div className="grid grid-cols-2 gap-4">
         {archive.map((arc, index) => (
           <div key={index}>
-            <div className="bg-indigo-800 w-full h-[700px] relative">
+            <div className="bg-gray-50 w-full h-[700px] relative">
               <Image 
                 src={arc.prev}
                 alt={arc.name}
+                priority
                 fill
               />
             </div>
