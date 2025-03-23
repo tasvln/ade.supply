@@ -16,6 +16,7 @@ const Archive = () => {
               <Image 
                 src={arc.prev}
                 alt={arc.name}
+                className="object-contain"
                 priority
                 fill
               />
