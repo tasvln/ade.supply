@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Kumbh_Sans } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
+// import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 
 const font = Kumbh_Sans({ subsets: ["latin"] });
