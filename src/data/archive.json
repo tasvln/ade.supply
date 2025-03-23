@@ -1,6 +1,54 @@
 [
   {
-    "name": "",
-    "prev": ""
+    "name": "winter-arc",
+    "prev": "/images/archive/winter-arc-one/1.png"
+  },
+  {
+    "name": "winter-arc",
+    "prev": "/images/archive/winter-arc-one/2.png"
+  },
+  {
+    "name": "winter-arc",
+    "prev": "/images/archive/winter-arc-one/3.png"
+  },
+  {
+    "name": "winter-arc",
+    "prev": "/images/archive/winter-arc-one/4.png"
+  },
+  {
+    "name": "winter-arc",
+    "prev": "/images/archive/winter-arc-one/5.png"
+  },
+  {
+    "name": "winter-arc",
+    "prev": "/images/archive/winter-arc-one/6.png"
+  },
+  {
+    "name": "vln",
+    "prev": "/images/archive/vln/1.png"
+  },
+  {
+    "name": "vln",
+    "prev": "/images/archive/vln/2.png"
+  },
+  {
+    "name": "jon",
+    "prev": "/images/archive/jon/1.png"
+  },
+  {
+    "name": "jon",
+    "prev": "/images/archive/jon/2.png"
+  },
+  {
+    "name": "aman",
+    "prev": "/images/archive/aman/1.png"
+  },
+  {
+    "name": "aman",
+    "prev": "/images/archive/aman/2.png"
+  },
+  {
+    "name": "aman",
+    "prev": "/images/archive/aman/3.png"
   }
 ]
