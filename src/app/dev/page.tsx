@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Dev = () => {
   return (
-    <div className="flex flex-col mx-auto gap-6 max-w-3xl text-lg my-16 p-4 relative">
+    <div className="flex flex-col mx-auto gap-6 max-w-4xl text-lg my-16 p-4 relative">
       <div className="fixed top-0 right-0 p-4 flex flex-col text-right">
         <Link href="https://github.com/tasvln" className="uppercase text-sm font-bold">GitHub</Link>
         <Link href="https://nrma.company" className="uppercase text-sm font-bold">The Nrma Company</Link>
@@ -22,7 +22,7 @@ const Dev = () => {
       </div>
       <div>
         <p className="font-bold uppercase text-2xl mb-2">Projects</p>
-        <div className="flex flex-col gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
           {projects.map((p, index) => (
             <div className="flex flex-col gap-2" key={index}>
               {/* <div className="bg-gray-500 w-full h-[300px]" /> */}
