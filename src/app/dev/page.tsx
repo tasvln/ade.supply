@@ -40,7 +40,7 @@ const Dev = () => {
         </div>
         <div>
           <p className="font-bold uppercase text-2xl mb-2">Projects</p>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
             {projects.map((p, index) => (
               <div className="flex flex-col gap-2" key={index}>
                 {/* <div className="bg-gray-500 w-full h-[300px]" /> */}
