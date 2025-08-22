@@ -18,7 +18,7 @@
   {
     "name": "Stadium Player Card",
     "stack": "Next.js, Typescript, SVG Generation, Zustand, API Integration",
-    "link": "https://mint.projectstadium.com/",
+    "link": "https://stadium-card-v2.vercel.app/",
     "prev": "/images/projects/card.png",
     "desc": "Developed a dynamic player or team card system that generates unique SVG-based cards for players and teams competing in a tournament, linking all their stats to the card to set their worth for team recruitment, ownerships or. — think of it as a pokemon card but for gamers.",
     "vid": ""
