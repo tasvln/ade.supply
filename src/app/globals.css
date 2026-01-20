@@ -1,16 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
 }
 
 body {
-  color: #171717;
-  background: oklch(0.985 0.001 106.423);
-  font-family: Arial, Helvetica, sans-serif;
+    color: #171717;
+    background: oklch(0.985 0.001 106.423);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.link:hover, a:hover {
-  text-decoration: underline;
+.link:hover,
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    @apply tracking-tighter;
+}
+
+a {
+    @apply w-fit;
 }
