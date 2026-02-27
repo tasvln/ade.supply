@@ -16,6 +16,7 @@ export default function Home() {
                 <Link href="/engr">software engr portfolio</Link>
                 <Link href="/">industrial design portfolio</Link>
                 <Link href="/archive">graphic design [archive]</Link>
+                <Link href="/archive">thoughts + papers</Link>
                 {/* <Link href="">beats [::link changes quaterly::]</Link> */}
                 {/* <Link href="">videography [pending]</Link> */}
                 <Link href="mailto:tsad3bayo@outlook.com">contact</Link>

@@ -17,9 +17,9 @@ const DevPage = () => {
                         <p className="font-light text-xl">
                             Fullstack & Graphics Programming
                         </p>
-                        <p className="font-light text-sm">
+                        {/* <p className="font-light text-sm">
                             a short description
-                        </p>
+                        </p> */}
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col">
