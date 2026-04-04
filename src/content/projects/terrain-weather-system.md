@@ -18,9 +18,9 @@ This project implements a modular **real-time weather and environment system** u
 
 The system integrates sky rendering, weather states, particle simulation, fog, and terrain into a unified pipeline. All major systems are designed to be configurable and driven from the CPU while leveraging the GPU for performance-critical work.
 
-![screenshot](https://github.com/user-attachments/assets/e91cea79-357c-4ad1-b5e0-94e0e1a898b9)
+![screenshot](https://github.com/user-attachments/assets/eafc2c34-467f-4ccc-a57b-46e9a0a03ca7)
 
-<https://github.com/user-attachments/assets/31d457df-17b5-443d-840d-de06a43fa6d5>
+[<https://github.com/user-attachments/assets/31d457df-17b5-443d-840d-de06a43fa6d5>](https://github.com/user-attachments/assets/31d457df-17b5-443d-840d-de06a43fa6d5)
 
 ---
 
