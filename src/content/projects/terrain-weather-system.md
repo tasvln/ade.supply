@@ -9,8 +9,8 @@ coverImage: "https://github.com/user-attachments/assets/e91cea79-357c-4ad1-b5e0-
 hasVideo: true
 tags: ["DirectX 12", "C++", "Graphics Programming", "Compute Shaders", "Real-Time Rendering"]
 links:
-github: "https://github.com/tasvln/directx-terrain-weather"
-------------------------------
+github: "<https://github.com/tasvln/directx-terrain-weather>"
+---
 
 ## Overview
 
@@ -21,10 +21,8 @@ The system integrates sky rendering, weather states, particle simulation, fog, a
 ![screenshot](https://github.com/user-attachments/assets/eafc2c34-467f-4ccc-a57b-46e9a0a03ca7)
 
 <video controls width="100%">
-  <source src="/projects/terrain-weather/mock.mp4" />
+  <source src="https://github.com/user-attachments/assets/31d457df-17b5-443d-840d-de06a43fa6d5" />
 </video>
-
----
 
 ## Features
 
@@ -39,8 +37,6 @@ The system integrates sky rendering, weather states, particle simulation, fog, a
 * Heightmap terrain with player-ground interaction
 * Wind system affecting both particles and clouds
 
----
-
 ## Concepts Demonstrated
 
 * Direct3D 12 compute pipeline for particle simulation
@@ -53,13 +49,9 @@ The system integrates sky rendering, weather states, particle simulation, fog, a
 * Camera-relative simulation techniques
 * Modular system design for real-time environments
 
----
-
 ## Requirements
 
 * Language: C++17 or later
 * Graphics API: DirectX 12
 * IDE: Visual Studio / Visual Studio Code
 * GPU with DirectX 12 support
-
----

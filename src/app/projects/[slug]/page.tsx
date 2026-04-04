@@ -32,23 +32,23 @@ export default async function ProjectPage({
                         href="/engr"
                         className="flex flex-row items-center gap-2"
                     >
-                        <p className="tracking-tighter text-sm">← back</p>
+                        <p className="tracking-tighter text-sm font-bold">← back</p>
                     </Link>
 
                     {/* Hero Section */}
                     <article className="pb-24">
                         {/* Meta info */}
-                        <div className="flex items-center gap-3 mb-6">
-                            <span className="px-3 py-1 text-xs rounded-full bg-blue-50 text-blue-600 font-medium">
+                        {/* <div className="flex items-center gap-3 mb-6"> */}
+                            {/* <span className="px-3 py-1 text-xs rounded-full bg-blue-50 text-blue-600 font-medium">
                                 {project.type}
                             </span>
                             {project.status === "live" && (
                                 <span className="px-3 py-1 text-xs rounded-full bg-green-50 text-green-600 font-medium">
                                     Live
                                 </span>
-                            )}
+                            )} */}
                             {/* <span className="text-sm text-gray-500">{project.date}</span> */}
-                        </div>
+                        {/* </div> */}
 
                         {/* Title and description */}
                         <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">
@@ -103,13 +103,12 @@ export default async function ProjectPage({
                                             />
                                         </div>
                                     ),
-                                    video: ({ src }) => (
+                                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                                    video: ({ node, ...props }) => (
                                         <div className="w-full my-12 rounded-xl overflow-hidden">
-                                            <video
-                                                src={src}
-                                                controls
-                                                className="w-full"
-                                            />
+                                            <video controls className="w-full" {...props}>
+                                                {props.children}
+                                            </video>
                                         </div>
                                     ),
                                     code: ({ children, className }) => {
@@ -153,7 +152,7 @@ export default async function ProjectPage({
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="px-4 py-2 bg-gray-50 text-gray-700 text-sm rounded-full"
+                                            className="px-4 py-2 bg-gray-200 text-gray-700 text-sm rounded-full"
                                         >
                                             {tag}
                                         </span>

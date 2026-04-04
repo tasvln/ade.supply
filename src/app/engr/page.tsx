@@ -15,7 +15,7 @@ const DevPage = () => {
                     <div className="flex flex-col">
                         <p className="font-bold text-3xl">Software Engineer</p>
                         <p className="font-light text-xl">
-                            Fullstack & Graphics Programming
+                            Graphics + GPU + Embedded Programming
                         </p>
                         {/* <p className="font-light text-sm">
                             a short description
@@ -76,13 +76,13 @@ const DevPage = () => {
                                                     .map((tag) => (
                                                         <span
                                                             key={tag}
-                                                            className="w-fit p-0.5 px-4 text-sm bg-pink-100 text-pink-600"
+                                                            className="w-fit p-0.5 px-2 text-sm bg-orange-100 text-orange-600 rounded-2xl"
                                                         >
                                                             {tag}
                                                         </span>
                                                     ))}
                                             </div>
-                                            <p className="font-bold text-5xl mb-2">
+                                            <p className="font-bold text-2xl mb-2">
                                                 {project.title}
                                             </p>
                                             <p>{project.description}</p>
