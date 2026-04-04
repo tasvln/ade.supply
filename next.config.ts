@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+const path = require('path')
+
 const nextConfig: NextConfig = {
     /* config options here */
     images: {
@@ -9,6 +11,9 @@ const nextConfig: NextConfig = {
                 hostname: "github.com",
             },
         ],
+    },
+    turbopack: {
+        root: path.join(__dirname, '..'),
     },
 };
 
