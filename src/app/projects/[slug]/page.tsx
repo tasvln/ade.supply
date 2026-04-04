@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getProjectBySlug, getAllProjects } from "@/lib/projects";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 export async function generateStaticParams() {
     const projects = getAllProjects();
@@ -74,6 +75,7 @@ export default async function ProjectPage({
                         {/* Markdown content */}
                         <div className="prose prose-lg max-w-none">
                             <ReactMarkdown
+                                rehypePlugins={[rehypeRaw]}
                                 components={{
                                     h2: ({ children }) => (
                                         <h2 className="text-3xl font-semibold tracking-tight mt-16 mb-6">

@@ -20,7 +20,9 @@ The system integrates sky rendering, weather states, particle simulation, fog, a
 
 ![screenshot](https://github.com/user-attachments/assets/eafc2c34-467f-4ccc-a57b-46e9a0a03ca7)
 
-![Video](https://github.com/user-attachments/assets/31d457df-17b5-443d-840d-de06a43fa6d5)
+<video controls width="100%">
+  <source src="https://github.com/user-attachments/assets/31d457df-17b5-443d-840d-de06a43fa6d5" />
+</video>
 
 ---
 
